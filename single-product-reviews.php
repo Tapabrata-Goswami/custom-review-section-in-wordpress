@@ -1,5 +1,4 @@
 <!-- REVIEW FETCH FORM DATABASE -->
-
 <?php
 
 // @see https://www.linkedin.com/in/tapabrata-goswami/
