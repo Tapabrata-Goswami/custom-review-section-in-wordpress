@@ -37,13 +37,13 @@ if (!$database_connection) {
             }
         }
     }
-mysqli_close($database_connection);
+mysqli_close($database_connection); //connecction closing
 }
 ?>
 
 
 
-<!-- INPUT REVIEW -->
+<!-- Review taking form Users -->
 
 <?php
 
@@ -64,13 +64,17 @@ $link = htmlspecialchars($_SERVER['REQUEST_URI']);
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Database & Server details
     $servername = "localhost";
     $username = "u526730828_city";
     $password = "tapa7866@A";
     $database = "u526730828_city";
 
+    // Variable declear for taking input
     $customer_name=$city=$cu_review="";
 
+    //Variable initilazing to from varoable
     $customer_name = $_POST['customer_name'];
     $city = $_POST['city'];
     $cu_review = $_POST['review'];
@@ -78,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // conection to database
     $database_connection = mysqli_connect($servername, $username, $password, $database);
     if (!$database_connection) {
-        echo "Server face some problem";
+        echo "Server face some problem"; //If any reason connection is failed then its called this message
     } else {
         for($i =0 ; $i <10; $i++){
             if($link == $link_products[$i]){
@@ -95,7 +99,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }    
         }    
     }
-
-    mysqli_close($database_connection);
+    mysqli_close($database_connection); //Connection closing
 }
 ?>
