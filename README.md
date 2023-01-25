@@ -6,4 +6,16 @@ In this project, I am creating a custom review section and review counter for Wo
 
 ####
 
-before.jpg
+### Before adding this custom code ###
+
+<img src="/readme-image/before.jpg"  width:300>
+
+### After adding this custom code ###
+![Alt Image text](/readme-image/after.png "After adding this code")
+
+![Alt Image text](/readme-image/after1.png "After adding this code")
+
+### Languages used in this code ###
+![Alt Image text](/readme-image/logo.png "languages")
+
+#### To view this code functon [click on me.](https://babymelon.in/product/stretch-marks-oil/) ####
