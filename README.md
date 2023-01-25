@@ -13,3 +13,6 @@ In this project, I am creating a custom review section and review counter for Wo
 ![Alt Image text](/image/after.png "After adding this code")
 
 ![Alt Image text](/image/after1.png "After adding this code")
+
+### Languages used in this code ###
+![Alt Image text](/image/logo.png "languages")
