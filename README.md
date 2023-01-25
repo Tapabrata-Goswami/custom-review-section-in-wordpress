@@ -18,4 +18,4 @@ In this project, I am creating a custom review section and review counter for Wo
 ### Languages used in this code ###
 ![Alt Image text](/image/logo.png "languages")
 
-#### [To view this code functon](https://babymelon.in/product/stretch-marks-oil/) ####
+#### To view this code functon [click on me](https://babymelon.in/product/stretch-marks-oil/) ####
