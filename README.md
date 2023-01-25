@@ -7,7 +7,11 @@ In this project, I am creating a custom review section and review counter for Wo
 ####
 
 ### Before adding this custom code ###
+<div style="width:60px ; height:60px">
+
 ![Alt Image text](/image/before.jpg "Before adding this code")
+
+</div>
 
 ### After adding this custom code ###
 ![Alt Image text](/image/after.png "After adding this code")
