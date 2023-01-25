@@ -6,5 +6,5 @@ In this project, I am creating a custom review section and review counter for Wo
 
 ####
 
-
-![Alt Image text](/image/before.jpg "Optional Title")
+### Before adding this custom code ###
+![Alt Image text](/image/before.jpg "Before adding this code")
