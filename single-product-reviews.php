@@ -85,15 +85,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         for($i =0 ; $i <10; $i++){
             if($link == $link_products[$i]){
-                $data = "INSERT INTO `$database_products[$i]` (`cu_name`, `cu_city`, `cu_review`) VALUES ('$customer_name', '$city', '$cu_review');";
-        
-                $data_pass = mysqli_query($database_connection, $data);
-                if(!$data_pass){
-                    echo "Server conection failed!";
-                }else{
-                    $link =$_SERVER['REQUEST_URI'];
-                    header("Location: $link");
-                    exit();
+                if(($customer_name != NULL) and($city != NULL) and ($cu_review != NULL)){
+                    $data = "INSERT INTO `$database_products[$i]` (`cu_name`, `cu_city`, `cu_review`) VALUES ('$customer_name', '$city', '$cu_review');";
+                    $data_pass = mysqli_query($database_connection, $data);
+                    if(!$data_pass){
+                        echo "Server conection failed!";
+                    }else{
+                        $link =$_SERVER['REQUEST_URI'];
+                        header("Location: $link");
+                        exit();
+                    }
                 }
             }    
         }    
