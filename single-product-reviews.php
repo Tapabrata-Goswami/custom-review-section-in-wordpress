@@ -52,9 +52,9 @@ $link = htmlspecialchars($_SERVER['REQUEST_URI']);
 
 <section class="review_input">
     <form action="<?php $link  ?>" method="post">
-        <input type="text" placeholder="Customer Name" name="customer_name">
-        <input type="text" placeholder="City" name="city">
-        <textarea type="text" placeholder="Review" name="review" row="8" cols="20"></textarea>
+        <input type="text" placeholder="Customer Name*" name="customer_name">
+        <input type="text" placeholder="City*" name="city">
+        <textarea type="text" placeholder="Review*" name="review" row="8" cols="20"></textarea>
         <input type="submit">
     </form>
 </section>
